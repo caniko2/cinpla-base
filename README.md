@@ -37,16 +37,16 @@ Windows: Search for anaconda and open Anaconda prompt.
 
 Mac: open a terminal
 
-Create a new Anaconda environment with (replace `myproject` with the name of your project):
+Change directory to cinpla_base, and use:
 
 ```
-conda create -n myproject python=3.6
+conda env create -f environment.yml
 ```
 
 Then, enter the environment using
 
 ```
-activate myproject
+conda activate cinpla
 ```
 
 

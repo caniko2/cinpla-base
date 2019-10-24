@@ -1,6 +1,7 @@
-name: expipe
+name: cinpla
 dependencies:
-  - python=3.5
+  - python=3.6
+  - pip
   - numpy
   - matplotlib
   - scipy
